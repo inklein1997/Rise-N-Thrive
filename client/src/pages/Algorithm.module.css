@@ -70,3 +70,44 @@
 .row3 button:active {
     background-color: rgba(0, 128, 0, 0.20)
 }
+
+.flex_column h6 {
+    display: none;
+    font-size: 4rem;
+}
+
+@media screen and (max-width:960px) {
+    .row1 {
+        flex-wrap: wrap-reverse;
+    }
+    .row2 {
+        flex-wrap: wrap;
+    }
+    .row2 div {
+        width: 100%;
+        max-width: none;
+    }
+
+    .row2 div:nth-child(2) {
+        display: none;
+    }
+    .column1 {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+    .flex_column h6 {
+        display: block;
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:590px) {
+    .flex,
+    .flex_column,
+    .column1,
+    .row1,
+    .row2,
+    .row3 {
+        gap: 1.5vh;
+    }
+}

@@ -8,8 +8,11 @@ import Card from '../components/UI/Card'
 import CodeOutput from '../components/PageComponents/algorithm/CodeOutput/CodeOutput';
 import Instructions from '../components/PageComponents/algorithm/Instructions/Instructions';
 
+import { ColorContext } from '../store/color-context';
+
 const Algorithm = () => {
     const [code, setCode] = useState(`let userOutputEl = document.getElementById("userOutput");\n\n// insert code below\nconst plusOne = () => {}\n\nuserOutputEl.textContent = plusOne();`);
+    const [textColor] = useContext(ColorContext)
 
     const srcDoc = `
     <html>
@@ -23,6 +26,7 @@ const Algorithm = () => {
 
     return <div className={`${classes.flex} page`} style={{ height: '94vh' }}>
     <div className={classes.flex_column}>
+        <h6 style={{color:textColor}}>Daily Algorithm</h6>
         <div className={classes.row1}>
             <div className={classes.column1}>
                 <TextEditor
