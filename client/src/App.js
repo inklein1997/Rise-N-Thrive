@@ -92,9 +92,9 @@ function App() {
                     <Route path="/game" exact>
                       <Game />
                     </Route>
-                    <Route path="/stocks" exact>
+                    {/* <Route path="/stocks" exact>
                       <Stocks />
-                    </Route>
+                    </Route> */}
                     <Route path="/indecision" exact>
                       <Indecision />
                     </Route>

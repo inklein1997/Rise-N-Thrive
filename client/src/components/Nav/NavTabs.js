@@ -99,7 +99,7 @@ const NavTabs = () => {
                     </div>
                 </NavLink>
             </li>
-            <li>
+            {/* <li>
                 <NavLink
                 onClick={handleNavClick}
                     to="/stocks">
@@ -111,7 +111,7 @@ const NavTabs = () => {
                         <p style={theme === "#393939" ? {color:'white'} : {color:'black'}}>Stocks</p>
                     </div>
                 </NavLink>
-            </li>
+            </li> */}
             <li>
                 <NavLink
                 onClick={handleNavClick}

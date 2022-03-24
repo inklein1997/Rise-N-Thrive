@@ -26,14 +26,14 @@ const GameList = () => {
                     img: yodelImg,
                     href: '/yodel',
                     unique: 'Average Tries: ',
-                    stat: data.allStats.stats[0].averageTries
+                    // stat: data.allStats.stats[0].averageTries
                 },
                 {
                     title: 'Lil\' Penguin',
                     img: penguinImg,
                     href: '/penguin-game/scene.html',
                     unique: 'Highscore: ',
-                    stat: data.allStats.stats[0].highScore
+                    // stat: data.allStats.stats[0].highScore
                 }
             ];
 
@@ -45,7 +45,7 @@ const GameList = () => {
 
 
     return (
-        <div>
+        <div style={{width: "100%", height:"100%"}}>
             <GameContainer games={games}/>
         </div>
     )

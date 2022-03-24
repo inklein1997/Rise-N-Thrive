@@ -212,3 +212,9 @@ margin: 0;
 }
   
 }
+
+@media screen and (max-width: 968px) {
+  .box {
+    width: 100%;
+  }
+}

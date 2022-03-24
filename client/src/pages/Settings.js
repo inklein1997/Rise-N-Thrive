@@ -40,7 +40,7 @@ const Settings = () => {
         </div>
         <div className={classes.logoutButtons}>
             <button onClick={() => Auth.logout()}>Logout</button>
-            <button>Delete Account</button>
+            {/* <button disabled="true">Delete Account</button> */}
         </div>
     </div>
 };

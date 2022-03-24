@@ -30,3 +30,10 @@
         font-size: 4rem;
     }
 }
+
+@media screen and (max-width: 590px) {
+    .flex,
+    .flex_column {
+        gap:1.5vh
+    }
+}
