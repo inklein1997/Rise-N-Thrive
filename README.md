@@ -21,7 +21,7 @@
 
 
 ## Links
-[URL to deployed application](https://rise-n-thrive.herokuapp.com/login) <br>
+[URL to deployed application](https://rise-n-thrive.herokuapp.com) <br>
 [URL to GitHub repository](https://github.com/inklein1997/Rise-N-Thrive)
 
 ## Technologies
