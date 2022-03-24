@@ -19,11 +19,11 @@ const Home = () => {
         <div className={`${classes.flex_column} ${classes.column1}`}> 
             <h1 style={{color:textColor}}>{`Good Morning, ${Auth.getProfile().data.firstName}`}</h1>
             <div className={classes.flex}>
-                <div className={classes.flex_column} style={{width: '50%'}}>
+                <div className={classes.flex_column} >
                     <News />
                     <Weather />
                 </div>
-                <div className={classes.flex_column} style={{width: '50%'}}>
+                <div className={classes.flex_column} >
                     <Quote />
                     <Tasks />
                 </div>

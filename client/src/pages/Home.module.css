@@ -18,3 +18,15 @@
 .column1 {
     flex-grow:1;
 }
+
+@media screen and (max-width:960px) {
+    .flex {
+        flex-wrap: wrap;
+    }
+    .flex_column {
+        width: 100%;
+    }
+    .flex div h1 {
+        font-size: 4rem;
+    }
+}

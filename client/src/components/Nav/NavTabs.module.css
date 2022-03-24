@@ -49,4 +49,18 @@ li:hover,
     gap: 20px;
 }
 
+@media screen and (max-width: 1000px) {
+    .ul li a div p {
+        display: none!important;
+    }
+}
 
+@media screen and (max-width: 590px) {
+    .ul li a div img {
+        width: 30px;
+        height: 30px;
+    }
+    .ul {
+        height: 97vh;
+    }
+}

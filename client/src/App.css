@@ -57,10 +57,7 @@ table {
 html {
 	overflow: hidden
 }
-.page {
-	position: absolute;
-	/* margin-right:3vw; */
-}
+
 
 .slideUp-appear,
 .slideUp-enter {
@@ -124,4 +121,26 @@ html {
 
 .fade-exit-done {
 	opacity: 1;
+}
+
+.page {
+	position: absolute;
+	/* margin-right:3vw; */
+}
+
+@media screen and (max-width:960px) {
+    .page {
+        flex-wrap: wrap;
+        overflow-y: scroll;
+    }
+
+	.page::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 590px) {
+	.page {
+		height: 97vh!important;
+	}
 }

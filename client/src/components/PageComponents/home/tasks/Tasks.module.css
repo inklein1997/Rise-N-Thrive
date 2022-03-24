@@ -3,6 +3,7 @@
     flex-direction: column;
     flex:1 1 50%;
     gap:20px;
+    min-height: 200px;
 }
 
 .card h2 {

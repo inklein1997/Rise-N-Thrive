@@ -3,3 +3,10 @@
     padding: 3vh;
     gap: 3vh;
 }
+
+@media screen and (max-width: 590px) {
+	.flex {
+        gap:1.5vh;
+        padding:1.5vh;
+    }
+}
