@@ -88,3 +88,10 @@
         opacity: 1;
     }
 }
+
+
+@media screen and (max-width: 890px) {
+    .card {
+        width: 70vw;
+    }
+}
